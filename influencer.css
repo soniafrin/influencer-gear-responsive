@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+
+:root{
+    --heading-one-color: #3A3A3A;
+    --heading-two-color: #18191F;
+    --heading-three-color: #0A0826;
+    --button-color: #E02C6D;
+    --button-text-color: #ffffff;
+    --paragraph-one-color: grey;
+    --paragraph-two-color: #787885;
+    --paragraph-three-color: #6C6C6C;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around ;
+    padding-top: 5.6rem;
+    align-items:center;
+}
+nav h3{
+    color: var(--heading-one-color);
+    font-size:1.5rem ;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    gap: 2.1rem;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--heading-one-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+    
+}
+.hero-heading{
+    max-width: 582px;
+}
+.hero-heading h1{
+        color: var(--heading-one-color);
+        font-size: 3.25rem;
+        font-weight: bold;
+        line-height: 70px;
+        margin-bottom: 16px;
+}
+.hero-heading p{
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 505px;
+    margin-bottom: 16px;
+}
+.hero-heading .btn a{
+    color: var(--button-text-color);
+    border-radius: 41px;
+    background-color: var(--button-color);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 40px;
+    display: inline-block;
+}
+.hero-img{
+    position: relative;
+}
+.hero image img{
+    max-width: 100%;
+
+}
+.hero-img .camera{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.hero-icons{
+    max-width: 1110px;
+    width: 70%;
+    margin: 35px auto;
+} 
+.hero-icons .soft-line {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 60%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+}
+.icons-body{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 60px;
+    
+}
